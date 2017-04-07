@@ -1,0 +1,43 @@
+.inner-x {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.inner-2x {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.inner-y {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-x, .inner-2x {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inner-y {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+[aria-label] {
+  text-rendering: optimizeSpeed;
+}
+
+[router-link], [jump-to-id] {
+  cursor: pointer;
+  color: #4078c0;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link {
+  &:hover {
+    color: #42b983
+  }
+}
